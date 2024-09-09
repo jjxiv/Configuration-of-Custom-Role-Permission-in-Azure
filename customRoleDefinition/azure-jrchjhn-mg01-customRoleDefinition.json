@@ -9,6 +9,6 @@
   "NotActions": [],
   "AssignableScopes": [
     "/providers/Microsoft.Management/managementGroups/azure-jrchjhn-mg01",
-    "/subscriptions/e87a90b2-ecb3-4e49-a47e-010690560f5d"
+    "/subscriptions/<yourSubscriptionID>"
   ]
 }
