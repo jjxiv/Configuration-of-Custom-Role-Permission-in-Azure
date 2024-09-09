@@ -63,23 +63,6 @@ This repository provides guidance on configuring user account permissions within
   {
     "Name": "Support Request Contributor (Custom)",
     "IsCustom": true,
-    "Description": "Allows to create support requests",
-    "Actions": [
-      "Microsoft.Resources/subscriptions/resourceGroups/read",
-      "Microsoft.Support/*"
-    ],
-    "NotActions": [],
-    "AssignableScopes": [
-      "/providers/Microsoft.Management/managementGroups/azure-jrchjhn-mg01",
-      "/subscriptions/e87a90b2-ecb3-4e49-a47e-010690560f5d"
-    ]
-  }
-  ```
-
-  ```json
-  {
-    "Name": "Support Request Contributor (Custom)",
-    "IsCustom": true,
     "Description": "Allows users to create support requests.",
     "Actions": [
       "Microsoft.Resources/subscriptions/resourceGroups/read",
@@ -88,7 +71,7 @@ This repository provides guidance on configuring user account permissions within
     "NotActions": [],
     "AssignableScopes": [
       "/providers/Microsoft.Management/managementGroups/azure-jrchjhn-mg01",
-      "/subscriptions/e87a90b2-ecb3-4e49-a47e-010690560f5d"
+      "/subscriptions/<yourSubscriptionID>
     ]
   }
   ```
